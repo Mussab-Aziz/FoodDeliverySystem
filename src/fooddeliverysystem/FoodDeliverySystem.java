@@ -1,5 +1,5 @@
-Name: Mussab Bin Aziz
-Roll no: 
+// Name: Mussab Bin Aziz
+// Roll no: 47527 
 
 package fooddeliverysystem;
 
@@ -41,7 +41,7 @@ class Customer extends Account {
             return;
         }
         for (MenuItem item : restaurant.getMenu()) {
-            System.out.println(item.getName() + " - $" + item.getPrice());
+            System.out.println(item.getName() + " - Pkr " + item.getPrice());
         }
     }
 
@@ -264,7 +264,7 @@ class MenuItem {
 
     @Override
     public String toString() {
-        return name + " ($" + price + ")";
+        return name + " (pkr" + price + ")";
     }
 }
 

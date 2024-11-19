@@ -1,0 +1,3 @@
+Customer,mussab,123
+Restaurant,123,123,abdullah
+Rider,Ali,123
